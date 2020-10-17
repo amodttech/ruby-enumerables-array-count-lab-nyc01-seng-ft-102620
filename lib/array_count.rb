@@ -4,7 +4,6 @@ def count_strings(array)
   array.count do |element|
     element.is_a? String 
       strings += 1 
-    end
   end
   strings
 end
