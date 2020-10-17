@@ -3,7 +3,6 @@ def count_strings(array)
   strings = 0 
   array.count do |element|
     element.class == String
-      strings += 1 
   end
 end
 
